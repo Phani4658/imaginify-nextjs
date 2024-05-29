@@ -46,7 +46,7 @@ export async function updateUser(clerkId: string, user: UpdateUserParams){
     }
 }
 
-export async function DeleteUser(clerkId: string){
+export async function deleteUser(clerkId: string){
     try{
         await connectToDatabase();
 
