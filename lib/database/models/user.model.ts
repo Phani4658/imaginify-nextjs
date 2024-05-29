@@ -3,7 +3,7 @@
 import { Schema, model, models } from "mongoose";
 
 
-export interface IUser {
+export interface IUser{
     clerkId: string;
     email: string;
     username: string;
